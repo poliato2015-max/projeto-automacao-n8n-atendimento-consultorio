@@ -200,7 +200,7 @@ O coração do fluxo. O node **AI Agent** recebe a mensagem consolidada e proces
 
 **Structured Output Parser:** estrutura a saída do modelo em formato padronizado para o próximo node.
 
-O system prompt completo do agente está disponível em: [System Prompt do Agente](docs/system_prompt_agente.md)
+O system prompt completo do agente está disponível em: [System Prompt do Agente](docs/system_prompt_do_agente.md)
 
 ---
 
