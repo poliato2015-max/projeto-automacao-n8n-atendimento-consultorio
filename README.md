@@ -41,14 +41,14 @@ Consultórios odontológicos enfrentam diariamente:
 O fluxo é composto por 8 grupos de nodes que trabalham em sequência:
 
 ```
-1. Receber Mensagens        — WhatsApp Trigger via API Meta
-2. Seleciona Campos         — Normalização dos dados de entrada
-3. Banco de Dados           — Verificação e cadastro do paciente
-4. Tratativa da Mensagem    — Classificação e transcrição (texto ou áudio)
-5. Buffer (Banco Redis)     — Agrupamento de mensagens picadas
-6. Agente de IA             — Processamento e decisão com OpenAI GPT-5 mini
+1. Receber Mensagens             — WhatsApp Trigger via API Meta
+2. Seleciona Campos              — Normalização dos dados de entrada
+3. Banco de Dados                — Verificação e cadastro do paciente
+4. Tratativa da Mensagem         — Classificação e transcrição (texto ou áudio)
+5. Buffer (Banco Redis)          — Agrupamento de mensagens picadas
+6. Agente de IA                  — Processamento e decisão com OpenAI GPT-5 mini
 7. Gerenciamento de Agendamentos — Google Calendar via MCP
-8. Divisão de Mensagens     — Envio humanizado da resposta
+8. Divisão de Mensagens          — Envio humanizado da resposta
 ```
 
 ---
@@ -79,7 +79,7 @@ repositorio/
     ├── prompt_listar_eventos.md
     ├── prompt_criar_evento.md
     ├── prompt_reagendar_evento.md
-    └── prompt_deletar_evento.md
+    └── prompt_cancelar_evento.md
 ```
 
 ---
@@ -213,7 +213,7 @@ Quando o Agente de IA identifica uma intenção de agendamento na mensagem do pa
 | `listar_eventos` | getAll | Lista consultas agendadas do paciente | [Ver prompt](docs/prompt_listar_eventos.md) |
 | `criar_evento` | create | Agenda uma nova consulta | [Ver prompt](docs/prompt_criar_evento.md) |
 | `reagendar_evento` | update | Altera data/hora de uma consulta existente | [Ver prompt](docs/prompt_reagendar_evento.md) |
-| `deletar_evento` | delete | Cancela uma consulta agendada | [Ver prompt](docs/prompt_deletar_evento.md) |
+| `deletar_evento` | delete | Cancela uma consulta agendada | [Ver prompt](docs/prompt_cancelar_evento.md) |
 
 Cada tool possui um prompt específico que orienta o modelo sobre como executar a operação corretamente no Google Calendar.
 
