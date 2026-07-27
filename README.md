@@ -36,7 +36,7 @@ Consultórios odontológicos enfrentam diariamente:
 
 ## 🏗️ Arquitetura do fluxo
 
-![Fluxo Completo](https://raw.githubusercontent.com/poliato2015-max/imagens/main/projeto-automacao-n8n-atendimento-consultorio-completo.png)
+![Fluxo Completo](https://raw.githubusercontent.com/poliato2015-max/imagens/main/projeto_automacao_n8n_atendimento_consultorio/projeto-automacao-n8n-atendimento-consultorio-completo.png)
 
 O fluxo é composto por 8 grupos de nodes que trabalham em sequência:
 
@@ -79,7 +79,8 @@ repositorio/
     ├── prompt_listar_eventos.md
     ├── prompt_criar_evento.md
     ├── prompt_reagendar_evento.md
-    └── prompt_cancelar_evento.md
+    ├── prompt_cancelar_evento.md
+    └── configuracao_supabase_n8n.md
 ```
 
 ---
@@ -116,6 +117,8 @@ create table pacientes (
 | `telefone` | text | Número do WhatsApp do paciente |
 | `nome_paciente` | text | Nome capturado da API Meta WhatsApp |
 | `nome_confirmado` | text | Nome confirmado pelo paciente durante a conversa |
+
+> 💡 "Caso tenha dificuldade em configurar a conexão do Supabase no N8N, consulte o guia detalhado: Configuração Supabase no N8N"
 
 ### Tabela de histórico de conversas
 
