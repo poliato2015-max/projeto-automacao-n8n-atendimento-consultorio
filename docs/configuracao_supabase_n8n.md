@@ -24,7 +24,7 @@ No painel principal do seu projeto Supabase, clique em **Connect**.
 
 Em seguida, clique em **Get Connected**.
 
-![Passo 1 - Connect](COLOCAR_LINK_DA_IMAGEM_01)
+![Passo 1 - Connect](https://raw.githubusercontent.com/poliato2015-max/imagens/main/projeto_automacao_n8n_atendimento_consultorio/projeto-automacao-n8n-atendimento-consultorio-projeto-supabase-connect.png)
 
 ---
 
