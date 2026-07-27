@@ -118,7 +118,7 @@ create table pacientes (
 | `nome_paciente` | text | Nome capturado da API Meta WhatsApp |
 | `nome_confirmado` | text | Nome confirmado pelo paciente durante a conversa |
 
-> 💡 "Caso tenha dificuldade em configurar a conexão do Supabase no N8N, consulte o guia detalhado: Configuração Supabase no N8N"
+> 💡 "Caso tenha dificuldade em configurar a conexão do Supabase no N8N, consulte o guia detalhado:" [Configuração Supabase no N8N](docs/configuracao_supabase_n8n.md)
 
 ### Tabela de histórico de conversas
 
