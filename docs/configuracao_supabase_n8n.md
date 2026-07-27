@@ -37,7 +37,7 @@ Na janela **Connect to your project**, configure as opções abaixo:
 
 Essas opções disponibilizam os parâmetros compatíveis com a credencial PostgreSQL utilizada neste projeto.
 
-![Passo 2 - Tipo de conexão](COLOCAR_LINK_DA_IMAGEM_02)
+![Passo 2 - Tipo de conexão](https://raw.githubusercontent.com/poliato2015-max/imagens/main/projeto_automacao_n8n_atendimento_consultorio/projeto-automacao-n8n-atendimento-consultorio-projeto-supabase-transaction.png)
 
 ---
 
@@ -47,7 +47,7 @@ Role a página até localizar a seção **Connection parameters**.
 
 Nesta seção estão disponíveis os dados que deverão ser copiados para a credencial PostgreSQL do n8n.
 
-![Passo 3 - Connection Parameters](COLOCAR_LINK_DA_IMAGEM_03)
+![Passo 3 - Connection Parameters](https://raw.githubusercontent.com/poliato2015-max/imagens/main/projeto_automacao_n8n_atendimento_consultorio/projeto-automacao-n8n-atendimento-consultorio-projeto-supabase-parameters.png)
 
 Os números destacados correspondem aos campos abaixo:
 
@@ -77,7 +77,7 @@ Em seguida:
 2. Clique na credencial **Postgres account**.
 3. Substitua apenas os campos indicados abaixo.
 
-![Passo 4 - Node PostgreSQL](COLOCAR_LINK_DA_IMAGEM_04)
+![Passo 4 - Node PostgreSQL](https://raw.githubusercontent.com/poliato2015-max/imagens/main/projeto_automacao_n8n_atendimento_consultorio/projeto-automacao-n8n-atendimento-consultorio-projeto-supabase-node-postgres.png)
 
 | Nº | Campo | Ação |
 |:--:|--------|------|
