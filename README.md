@@ -1,4 +1,4 @@
-# Automação N8N — Atendimento Consultório Odontológico
+# Automação N8N - Atendimento Consultório Odontológico
 
 > Fluxo de atendimento automático via WhatsApp para consultórios odontológicos — com IA Generativa, transcrição de áudio, buffer de mensagens picadas, histórico de conversas e gerenciamento de agendamentos via Google Calendar.
 
@@ -268,9 +268,8 @@ Inicialmente o fluxo não tratava mensagens de tipos não suportados (imagens, d
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por **Marcelo Poliato de Oliveira** como projeto prático de automação inteligente com N8N e IA Generativa.
+# <img src="https://github.com/poliato2015-max.png" width="40" height="40" style="border-radius: 50%;" alt="Marcelo Poliato"> Autor
+Desenvolvido por **Marcelo Poliato de Oliveira** como projeto prático de desenvolvimento assistido por IA Generativa.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Marcelo%20Poliato-0077B5?logo=linkedin)](https://www.linkedin.com/in/marcelo-poliato)
 [![GitHub](https://img.shields.io/badge/GitHub-poliato2015--max-181717?logo=github)](https://github.com/poliato2015-max)
